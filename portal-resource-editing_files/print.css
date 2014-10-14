@@ -1,0 +1,929 @@
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 33, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 75%;
+}
+
+/* line 51, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #222222;
+}
+/* line 52, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* line 53, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.50em;
+}
+
+/* line 54, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+/* line 55, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1.00em;
+}
+
+/* line 56, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+/* line 57, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.50em;
+}
+
+/* line 58, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 59, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+p {
+  margin: 0 0 1.5em;
+}
+/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+p .left {
+  display: inline;
+  float: left;
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+/* line 61, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+p .right {
+  display: inline;
+  float: right;
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+
+/* line 62, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+a {
+  text-decoration: underline;
+  color: #0066cc;
+}
+/* line 18, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: #004c99;
+}
+/* line 21, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: #0099ff;
+}
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #0099ff;
+}
+/* line 27, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: #bf00ff;
+}
+
+/* line 63, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+blockquote {
+  margin: 1.5em;
+  color: #666666;
+  font-style: italic;
+}
+
+/* line 64, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+strong, dfn {
+  font-weight: bold;
+}
+
+/* line 65, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+em, dfn {
+  font-style: italic;
+}
+
+/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 67, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666666;
+}
+
+/* line 68, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 69, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+del {
+  color: #666666;
+}
+
+/* line 70, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+/* line 72, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+li ul, li ol {
+  margin: 0;
+}
+
+/* line 73, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 1.5em;
+}
+
+/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 75, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 76, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+dl {
+  margin: 0 0 1.5em 0;
+}
+/* line 77, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+dl dt {
+  font-weight: bold;
+}
+
+/* line 78, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+dd {
+  margin-left: 1.5em;
+}
+
+/* line 79, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+
+/* line 80, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+th {
+  font-weight: bold;
+}
+
+/* line 81, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+thead th {
+  background: #c3d9ff;
+}
+
+/* line 82, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+/* line 85, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+table.striped tr:nth-child(even) td,
+table tr.even td {
+  background: #e5ecf9;
+}
+
+/* line 86, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+tfoot {
+  font-style: italic;
+}
+
+/* line 87, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+caption {
+  background: #eeeeee;
+}
+
+/* line 88, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+.quiet {
+  color: #666666;
+}
+
+/* line 89, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+.loud {
+  color: #111111;
+}
+
+/* line 5, ../../app/assets/stylesheets/print.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.25em 0;
+}
+
+/* line 8, ../../app/assets/stylesheets/print.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 11, ../../app/assets/stylesheets/print.scss */
+h2 {
+  color: #ee864e;
+  font-size: 1.833em;
+}
+
+/* line 15, ../../app/assets/stylesheets/print.scss */
+h3 {
+  font-size: 1.165em;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-top: 3px;
+}
+
+/* line 21, ../../app/assets/stylesheets/print.scss */
+h4 {
+  clear: both;
+  color: #ef864e;
+  font-size: 1.165em;
+}
+
+/* line 26, ../../app/assets/stylesheets/print.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 31, ../../app/assets/stylesheets/print.scss */
+h6 {
+  font-size: 0.917em;
+}
+
+/* line 34, ../../app/assets/stylesheets/print.scss */
+li h3 {
+  display: inline;
+  padding: 0;
+}
+
+/* line 38, ../../app/assets/stylesheets/print.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 41, ../../app/assets/stylesheets/print.scss */
+ul, ol {
+  margin: 0 0 1em 3em;
+}
+
+/* line 44, ../../app/assets/stylesheets/print.scss */
+#wrapper {
+  margin: 1em;
+  display: block;
+}
+
+/* line 48, ../../app/assets/stylesheets/print.scss */
+.menu {
+  font-weight: bold;
+}
+
+/* line 52, ../../app/assets/stylesheets/print.scss */
+.activity {
+  page-break-after: always;
+}
+
+/* line 55, ../../app/assets/stylesheets/print.scss */
+h4, .content, .editable_block {
+  clear: both;
+  display: block;
+}
+
+/* line 59, ../../app/assets/stylesheets/print.scss */
+.page {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+/* line 64, ../../app/assets/stylesheets/print.scss */
+.page .page_content {
+  display: block;
+  width: 70%;
+  margin: 1em;
+}
+/* line 68, ../../app/assets/stylesheets/print.scss */
+.page .page_content .item {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 2em;
+  page-break-inside: avoid;
+}
+/* line 74, ../../app/assets/stylesheets/print.scss */
+.page .page_content .data_collector {
+  display: block;
+  clear: both;
+  width: 400px;
+  height: 200px;
+}
+/* line 79, ../../app/assets/stylesheets/print.scss */
+.page .teacher_content {
+  display: block;
+  float: right;
+  padding: 1em;
+  width: 20%;
+  border-left: 1px dotted;
+}
+/* line 87, ../../app/assets/stylesheets/print.scss */
+.page .teacher_content .teacher_notes .teacher_note {
+  font-size: 0.9em;
+}
+
+/* FORMS */
+/* line 92, ../../app/assets/stylesheets/print.scss */
+input {
+  border: 1px solid #242323;
+}
+
+/* line 95, ../../app/assets/stylesheets/print.scss */
+textarea {
+  border: 1px solid #242323;
+  height: 200px;
+  margin-left: 0 !important;
+  page-break-before: avoid !important;
+  page-break-inside: avoid !important;
+}
+
+/* line 102, ../../app/assets/stylesheets/print.scss */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+/* line 105, ../../app/assets/stylesheets/print.scss */
+table .form {
+  width: 100%;
+  text-align: left;
+}
+/* line 108, ../../app/assets/stylesheets/print.scss */
+table .form tr {
+  vertical-align: top;
+}
+/* line 110, ../../app/assets/stylesheets/print.scss */
+table .form td {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+/* line 113, ../../app/assets/stylesheets/print.scss */
+table .form td:nth-child(odd) {
+  width: 30%;
+  text-align: right;
+}
+
+/* CANVAS, FLOTR */
+/* line 118, ../../app/assets/stylesheets/print.scss */
+canvas, .flotr-overlay, .data_collector, .flotr-axis-title {
+  clear: both;
+  display: block;
+  min-height: 400px;
+  page-break-before: always !important;
+  page-break-inside: avoid !important;
+}
+
+/* line 125, ../../app/assets/stylesheets/print.scss */
+canvas, .flotr-labels div, .flotr-legend, .flotr-legend-bg {
+  margin: 0 0 0 -100px !important;
+}
+
+/* FORCE DISPLAY OF ALL ACTIVITY LIST PANES */
+/* line 129, ../../app/assets/stylesheets/print.scss */
+.show_section {
+  display: block !important;
+}
+
+/* line 132, ../../app/assets/stylesheets/print.scss */
+.activity .action a {
+  clear: both;
+  display: block;
+}
+
+/* HIDE "CHROME", NAVIGATION, AND OTHER PERIPHERAL ELEMENTS */
+/* line 137, ../../app/assets/stylesheets/print.scss */
+#header, #userlinks, #nav_top, #project-signin, #element_nav_menu, #page_nav_menu, #section_nav_menu, #print_button, #secondary, #footer_left, .project-header, .page-utility, .send-to-friend, .share-it, .login-area, .hidden, .LV_valid, .doNotPrint, .activity-chart-navigation {
+  display: none;
+}
+
+/* this is cool too from ethan; display link url after links */
+/* a:link:after { content: " (" attr(href) ")"; }            */
+/* line 143, ../../app/assets/stylesheets/print.scss */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 144, ../../app/assets/stylesheets/print.scss */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 145, ../../app/assets/stylesheets/print.scss */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 146, ../../app/assets/stylesheets/print.scss */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 147, ../../app/assets/stylesheets/print.scss */
+a.rollover {
+  display: none;
+}
+
+/* hide table elements? */
+/* line 151, ../../app/assets/stylesheets/print.scss */
+table.teacher_class_table th, table.teacher_class_table td {
+  border: 1px solid #242323;
+  padding-left: 10px;
+  color: black;
+}
+/* line 157, ../../app/assets/stylesheets/print.scss */
+table.teacher_class_table th .change_password, table.teacher_class_table td .change_password {
+  padding-left: 20px;
+}
+/* line 162, ../../app/assets/stylesheets/print.scss */
+table.teacher_class_table th .remove_student, table.teacher_class_table td .remove_student {
+  padding-left: 20px;
+}
+/* line 166, ../../app/assets/stylesheets/print.scss */
+table.teacher_class_table th .remove, table.teacher_class_table td .remove {
+  padding-left: 20px;
+}
+
+/* line 172, ../../app/assets/stylesheets/print.scss */
+.floatR {
+  float: right;
+}
+
+/* line 177, ../../app/assets/stylesheets/print.scss */
+.floatL {
+  float: left;
+}
+
+/* line 182, ../../app/assets/stylesheets/print.scss */
+.clearBoth {
+  clear: both;
+}
+
+/* line 186, ../../app/assets/stylesheets/print.scss */
+.header {
+  padding-left: 5px;
+  clear: both;
+}
+
+/* line 187, ../../app/assets/stylesheets/print.scss */
+.classsummary {
+  padding-left: 5px;
+  float: left;
+  text-align: left;
+}
+
+/* line 189, ../../app/assets/stylesheets/print.scss */
+.print_button {
+  display: none;
+}
+
+/* line 191, ../../app/assets/stylesheets/print.scss */
+.print_link {
+  display: none;
+}
+
+/* line 6, ../../app/assets/stylesheets/reports.scss */
+.answered {
+  background-color: white;
+}
+
+/* line 9, ../../app/assets/stylesheets/reports.scss */
+.not_answered {
+  background-color: #cccccc;
+}
+
+/* line 12, ../../app/assets/stylesheets/reports.scss */
+.table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+/* line 17, ../../app/assets/stylesheets/reports.scss */
+.row {
+  display: table-row;
+  width: 100%;
+}
+
+/* line 21, ../../app/assets/stylesheets/reports.scss */
+.cell {
+  display: table-cell;
+}
+
+/* line 24, ../../app/assets/stylesheets/reports.scss */
+.cellheader {
+  font-weight: bold;
+}
+
+/* line 27, ../../app/assets/stylesheets/reports.scss */
+.optioncheckmark {
+  width: 10px;
+  padding-left: 10px;
+}
+
+/* line 31, ../../app/assets/stylesheets/reports.scss */
+.optionlabel {
+  padding-left: 5px;
+  width: 310px;
+}
+
+/* line 35, ../../app/assets/stylesheets/reports.scss */
+.optionbar {
+  width: 290px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  vertical-align: middle;
+  border-left: 1px solid black;
+}
+
+/* line 42, ../../app/assets/stylesheets/reports.scss */
+.optionbarbar {
+  display: block;
+  height: 100%;
+  border: 1px solid black;
+  margin-left: 1px;
+}
+
+/* line 48, ../../app/assets/stylesheets/reports.scss */
+.optionbarbar.correct {
+  background-color: #ddffdd;
+}
+
+/* line 51, ../../app/assets/stylesheets/reports.scss */
+.optionbarbar.incorrect {
+  background-color: #ffdddd;
+}
+
+/* line 54, ../../app/assets/stylesheets/reports.scss */
+.optionpercent {
+  border-left: 2px solid black;
+  padding-right: 2px;
+  padding-left: 2px;
+  text-align: right;
+}
+
+/* line 60, ../../app/assets/stylesheets/reports.scss */
+.optioncount {
+  border-left: 1px solid black;
+  padding-left: 2px;
+  text-align: right;
+}
+
+/* line 66, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .accordion_container {
+  overflow: visible;
+}
+/* line 68, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .accordion_container .accordion_name {
+  display: inline-block;
+  display: -moz-inline-block;
+  width: 100%;
+  float: none;
+}
+/* line 73, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .accordion_container .accordion_content {
+  clear: both;
+  overflow: visible;
+}
+/* line 76, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .accordion_container .empty_break {
+  clear: both;
+}
+/* line 78, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable img {
+  max-width: 680px;
+}
+/* line 80, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response {
+  margin-top: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 680px;
+}
+/* line 85, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response.correct {
+  background-color: #ddffdd;
+}
+/* line 87, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response.incorrect {
+  background-color: #ffdddd;
+}
+/* line 89, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_name {
+  font-weight: bold;
+  width: 200px;
+  vertical-align: top;
+}
+/* line 93, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_checkmark {
+  font-weight: bold;
+  width: 10px;
+  vertical-align: top;
+}
+/* line 97, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_content {
+  width: 475px;
+  vertical-align: top;
+}
+/* line 100, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_content img {
+  max-width: 460px;
+}
+/* line 102, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_content_part {
+  border-bottom: 1px solid lightgray;
+}
+/* line 104, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_content_part:last-of-type {
+  border-bottom: none;
+}
+/* line 106, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_answer {
+  width: 200px;
+  vertical-align: top;
+}
+/* line 109, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .learner_response_rationale {
+  width: 255px;
+  vertical-align: top;
+}
+
+/* line 114, ../../app/assets/stylesheets/reports.scss */
+.tag {
+  background: #CEB3DA;
+  border: 0 solid #CEB3DA;
+  color: white;
+  font: 12px/1 Arial, Helvetica, sans-serif;
+  padding: 1px 2px !important;
+  /* CSS 3 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ceb3da), to(#8a7e91));
+  background: -moz-linear-gradient(top, #ceb3da, #8a7e91);
+  border-radius: 4px;
+  /* Opera 10.5, IE 9 */
+  -moz-border-radius: 4px;
+  /* FF1+ */
+  -webkit-border-radius: 4px;
+  /* Saf3+, Chrome */
+}
+
+/* line 130, ../../app/assets/stylesheets/reports.scss */
+.inline_block {
+  display: -moz-inline-block;
+  display: inline-block;
+}
+
+/* line 134, ../../app/assets/stylesheets/reports.scss */
+.offering_print_all {
+  float: right;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+/* line 139, ../../app/assets/stylesheets/reports.scss */
+.item.choice {
+  display: block;
+}
+/* line 141, ../../app/assets/stylesheets/reports.scss */
+.item.choice.chosen_answer {
+  font-weight: bold;
+}
+/* line 143, ../../app/assets/stylesheets/reports.scss */
+.item.choice.chosen_answer.correct {
+  background-color: #ddffdd;
+}
+/* line 145, ../../app/assets/stylesheets/reports.scss */
+.item.choice.chosen_answer.incorrect {
+  background-color: #ffdddd;
+}
+/* line 147, ../../app/assets/stylesheets/reports.scss */
+.item.choice .option {
+  vertical-align: top;
+  width: 200px;
+}
+/* line 150, ../../app/assets/stylesheets/reports.scss */
+.item.choice .rationale {
+  vertical-align: top;
+  width: 255px;
+}
+
+/* line 154, ../../app/assets/stylesheets/reports.scss */
+.question_container {
+  display: block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 1px solid #89b4b7;
+  margin: 10px 2px;
+  padding: 2px;
+}
+
+/* line 164, ../../app/assets/stylesheets/reports.scss */
+.report_embeddable .accordion_container {
+  margin: 10px 2px;
+}
+
+/* line 167, ../../app/assets/stylesheets/reports.scss */
+.report_question_prompt {
+  width: 650px;
+  display: -moz-inline-block;
+  display: inline-block;
+}
+/* line 171, ../../app/assets/stylesheets/reports.scss */
+.report_question_prompt .image-question-drawing-prompt {
+  max-width: 395px;
+  float: left;
+}
+/* line 175, ../../app/assets/stylesheets/reports.scss */
+.report_question_prompt .image-question-text-prompt {
+  margin-left: 400px;
+}
+
+/* line 180, ../../app/assets/stylesheets/reports.scss */
+.report_question_summary_title {
+  width: 90px;
+  display: -moz-inline-block;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+/* line 188, ../../app/assets/stylesheets/reports.scss */
+.report_question_summary_info {
+  width: 15px;
+  display: -moz-inline-block;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+/* line 194, ../../app/assets/stylesheets/reports.scss */
+.blob_url {
+  display: inline;
+  font-family: monospace;
+  font-size: 9px;
+}
+
+/* line 197, ../../app/assets/stylesheets/print.scss */
+.optionbarbar {
+  border: 2px solid black;
+}
+
+/* line 199, ../../app/assets/stylesheets/print.scss */
+.filter_checkbox, .filter_selection_control, .print_control, #header, #footer, #under_footer {
+  display: none;
+}
+
+/* line 201, ../../app/assets/stylesheets/print.scss */
+.report_embeddable {
+  overflow: visible;
+}
+/* line 203, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .learner_response {
+  page-break-inside: avoid;
+}
+/* line 205, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .item {
+  border: none;
+}
+/* line 207, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .ContentFlow {
+  display: none;
+  overflow: visible;
+}
+/* line 210, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .accordion_container {
+  overflow: visible;
+  border: none;
+  border-bottom: 2px solid black;
+  page-break-inside: avoid;
+}
+/* line 215, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .accordion_container .action_menu {
+  overflow: visible;
+}
+/* line 217, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .accordion_container .accordion_toggle {
+  display: none;
+}
+/* line 219, ../../app/assets/stylesheets/print.scss */
+.report_embeddable .accordion_container .accordion_content {
+  overflow: visible;
+}
+
+/* line 221, ../../app/assets/stylesheets/print.scss */
+#wrapper {
+  overflow: visible;
+}
+
+/* line 224, ../../app/assets/stylesheets/print.scss */
+.report_question_prompt {
+  width: 545px;
+}
+
+/* line 228, ../../app/assets/stylesheets/print.scss */
+.hide_in_print {
+  display: none;
+}
+
+/* line 231, ../../app/assets/stylesheets/print.scss */
+.show_border {
+  border: 1px solid #242323;
+}
