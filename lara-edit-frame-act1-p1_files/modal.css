@@ -1,0 +1,47 @@
+/* This partial should be @imported into your layout Sass file, or included via the Asset Pipeline */
+/* Source : https://gist.github.com/1456815 */
+/* line 4, ../../app/assets/stylesheets/modal.scss */
+#modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 14, ../../app/assets/stylesheets/modal.scss */
+#modal {
+  display: none;
+  position: absolute;
+  width: 350px;
+  left: 50%;
+  margin-left: -195px;
+  padding: 20px;
+  background: #fff;
+  border: 5px solid #eee;
+}
+/* line 24, ../../app/assets/stylesheets/modal.scss */
+#modal > .close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #666;
+}
+/* line 29, ../../app/assets/stylesheets/modal.scss */
+#modal > .close:hover, #modal > .close:active {
+  color: #000;
+}
+/* line 34, ../../app/assets/stylesheets/modal.scss */
+#modal input.close {
+  float: right;
+  margin: 1em 1em 5px 0;
+  line-height: 1em;
+  height: 1.6em;
+}
+/* line 41, ../../app/assets/stylesheets/modal.scss */
+#modal input.embeddable-save {
+  float: right;
+  margin: 1em;
+}

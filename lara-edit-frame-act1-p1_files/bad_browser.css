@@ -1,0 +1,22 @@
+/* line 1, ../../app/assets/stylesheets/bad_browser.scss */
+.browser_fail_content {
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid #e5e5e5;
+  font-size: 2em;
+}
+/* line 6, ../../app/assets/stylesheets/bad_browser.scss */
+.browser_fail_content h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  color: red;
+}
+/* line 11, ../../app/assets/stylesheets/bad_browser.scss */
+.browser_fail_content p {
+  line-height: 2em;
+}
+/* line 14, ../../app/assets/stylesheets/bad_browser.scss */
+.browser_fail_content .browser_link {
+  font-size: 1.2em;
+  padding-right: 2em;
+}
