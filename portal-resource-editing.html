@@ -229,87 +229,30 @@
           
           
           
-          <form accept-charset="UTF-8" action="http://localhost:3000/external_activities/1" class="edit_external_activity" id="edit_external_activity_1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"></div>  
-            <div class="action_menu">
-              <div class="action_menu_header_left">
-                <h3 class="menu">
-                  <span id="edit_title_external_activity_1" class="component_title">External Activity: My Activity</span><span class="dev_note"> <a href="http://localhost:3000/external_activities/1">1</a></span>
-                </h3>
-              </div>
-              <div class="action_menu_header_right">
-                <ul class="menu">
-                  <li class="menu">
-                    <input name="commit" type="submit" value="Save">
-                  </li>
-                </ul>
-              </div>
+          <div class="action_menu">
+            <div class="action_menu_header_left">
+              <h3 class="menu">
+                <span id="edit_title_external_activity_1" class="component_title">LARA Activity 1</span>
+              </h3>
             </div>
-            <fieldset><legend>Activity Name</legend><input id="external_activity_name" name="external_activity[name]" size="30" type="text" value="My Activity">
-            </fieldset>
-            <fieldset><legend>Activity Description</legend><textarea class="mceNoEditor" cols="80" id="external_activity_description" name="external_activity[description]" rows="5"></textarea>
-            </fieldset>
-            <fieldset><legend>Activity Abstract</legend><textarea class="mceNoEditor" cols="80" id="external_activity_abstract" name="external_activity[abstract]" rows="5"></textarea>
-            </fieldset>
-            <fieldset><legend>Activity Description for Teacher</legend>If this description is filled in, it will be shown in the search page when a teacher is logged in
-            <textarea class="mceNoEditor" cols="80" id="external_activity_description_for_teacher" name="external_activity[description_for_teacher]" rows="5"></textarea>
-            </fieldset>
-            <fieldset><legend>External URL</legend><input id="external_activity_url" name="external_activity[url]" size="60" type="text" value="/mock_html/test-external-activity.html">
-            </fieldset>
-            <fieldset><legend>Teacher Guide (URL)</legend><input id="external_activity_teacher_guide_url" name="external_activity[teacher_guide_url]" size="60" type="text">
-            </fieldset>
-            <fieldset><legend>Thumbnail image URL (300 x 250 px)</legend><input id="external_activity_thumbnail_url" name="external_activity[thumbnail_url]" size="60" type="text">
-            </fieldset>
-            <fieldset><legend>Publication status</legend><select id="external_activity_publication_status" name="external_activity[publication_status]"><option value="draft">draft</option>
-            <option value="published" selected="selected">published</option>
-            <option value="private">private</option></select>
-            </fieldset>
-            <fieldset><legend>Feature On Landing Page</legend><input name="external_activity[is_featured]" type="hidden" value="0"><input id="external_activity_is_featured" name="external_activity[is_featured]" type="checkbox" value="1">
-            This activity should be displayed to anonymous users on the landing page
-            </fieldset>
-            <fieldset><legend>Has Pre And Post Tests</legend><input name="external_activity[has_pretest]" type="hidden" value="0"><input id="external_activity_has_pretest" name="external_activity[has_pretest]" type="checkbox" value="1">
-            This unit has pre- and post-tests available.
-            </fieldset>
-            <fieldset><legend>Student Report Enabled</legend><input name="external_activity[student_report_enabled]" type="hidden" value="0"><input checked="checked" id="external_activity_student_report_enabled" name="external_activity[student_report_enabled]" type="checkbox" value="1">
-            Show a link to the student so they can see all their answers and see if they are correct
-            </fieldset>
-            <fieldset><legend>Extra Options</legend><div class="config">
-              <input name="external_activity[popup]" type="hidden" value="0"><input checked="checked" id="external_activity_popup" name="external_activity[popup]" type="checkbox" value="1">
-              Open the url in a new window
-            </div>
-            <div class="config">
-              <input name="external_activity[append_learner_id_to_url]" type="hidden" value="0"><input id="external_activity_append_learner_id_to_url" name="external_activity[append_learner_id_to_url]" type="checkbox" value="1">
-              Append the learner id to the url (e.g. http://foo.com/bar?learner=4)
-            </div>
-            <div class="config">
-              <input name="external_activity[append_survey_monkey_uid]" type="hidden" value="0"><input id="external_activity_append_survey_monkey_uid" name="external_activity[append_survey_monkey_uid]" type="checkbox" value="1">
-              Append a unique Survey Monkey user id to the url (e.g. http://www.surveymonkey.com/s/H2Y9H27?c=00001)
-            </div>
-            <div class="config">
-              <input name="external_activity[is_official]" type="hidden" value="0"><input checked="checked" id="external_activity_is_official" name="external_activity[is_official]" type="checkbox" value="1">
-              Designate this as an "official" Concord activity in lists
-            </div>
-            </fieldset>
-            <fieldset><legend>Save Path</legend><input id="external_activity_save_path" name="external_activity[save_path]" size="30" type="text">
-            </fieldset>  
-            
-            <fieldset><legend>Cohorts</legend><div class="aligned">
-              <input id="update_cohorts" name="update_cohorts" type="hidden" value="true">
-              <ul class="menu_h">
+            <div class="action_menu_header_right">
+              <ul class="menu">
+                <li>
+                  Published
+                </li>
+                <li>
+                  HAS Cohort A
+                </li>
+                <li>
+                  <!-- this should pop up a lightbox style editing dialog for the portal's data about this resource
+                       the content of this form should not show fields that are "sync'd" with LARA
+                    -->
+                  <a href="#" title="this should pop up a lightbox style editing dialog for the portal's data about this resource the content of this form should not show fields that are sync'd with LARA">Edit Resource Availability</a>
+                </li>
               </ul>
             </div>
-            </fieldset>
-            
-            
-          </form>
-          <script type="text/javascript">
-          //<![CDATA[
-          focus_first_field();
-          //]]>
-          </script>
-          
-          
-          
-          
+          </div>
+
         </div>
       </div>
     </div>
