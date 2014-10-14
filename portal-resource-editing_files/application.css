@@ -885,10 +885,10 @@ body#tinymce {
 #primary {
   display: inline;
   float: left;
-  margin: 0 0 0 215px;
+  margin: 0 0 0 0px;
   min-height: 400px;
   padding: 0;
-  width: 730px;
+  width: 100%;
 }
 /* line 321, ../../../app/assets/stylesheets/web/app.scss */
 #primary div.right {
