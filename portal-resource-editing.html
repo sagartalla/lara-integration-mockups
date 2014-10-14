@@ -252,7 +252,16 @@
               </ul>
             </div>
           </div>
-
+          <script>
+            // Make the iframe match the size of the content inside of it
+            function handleMessage(event)
+            {
+              if (event.data.type && event.data.type == 'resizeIframe')
+                document.getElementById('lara-iframe').style.height = parseInt(event.data.newHeight,10) + 10 + 'px';
+            }
+            window.addEventListener("message", handleMessage, false);
+          </script>
+          <iframe id="lara-iframe" src="lara-activity-edit-frame.html" style="width:100%; height:100%; border:0">
         </div>
       </div>
     </div>
