@@ -583,7 +583,7 @@ table {
 /* line 101, ../../../app/assets/stylesheets/web/app.scss */
 body {
   background-color: #fff;
-  background-image: url(/assets/styles/bg-body.png);
+  background-image: url(../assets/bg-body.png);
   background-repeat: repeat-x;
   color: #3f3f3f;
 }
