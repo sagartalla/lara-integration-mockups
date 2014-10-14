@@ -1,0 +1,82 @@
+/* line 1, ../../app/assets/stylesheets/sequence-editing.scss */
+.thumbnail_info {
+  margin: 1em;
+  font-size: 12px;
+  color: #444;
+}
+/* line 5, ../../app/assets/stylesheets/sequence-editing.scss */
+.thumbnail_info .activity_thumbnail {
+  display: none;
+  clear: both;
+  height: 250px;
+  width: 300px;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+/* line 12, ../../app/assets/stylesheets/sequence-editing.scss */
+.thumbnail_info .activity_thumbnail img {
+  width: 100%;
+}
+
+/* line 18, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  background-color: #FFF6E5;
+  float: left;
+  width: 100%;
+  clear: both;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 27, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field label {
+  font-weight: bold;
+  color: #A68547;
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  margin-right: 1em;
+}
+/* line 35, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field input {
+  display: inline-block;
+  max-width: 45%;
+  clear: right;
+}
+/* line 40, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field textarea {
+  display: inline-block;
+  float: right;
+}
+/* line 44, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field .edit_trigger {
+  float: right;
+  text-align: right;
+  display: inline-block;
+}
+/* line 49, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field a#toggle_thumbnail_preview {
+  margin-left: 1em;
+  font-size: 0.9em;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* line 55, ../../app/assets/stylesheets/sequence-editing.scss */
+.sequence_form .field .hint {
+  font-size: 11px;
+  color: #A68547;
+}
+
+/* line 62, ../../app/assets/stylesheets/sequence-editing.scss */
+#leftcol {
+  clear: left;
+  float: left;
+  width: 50%;
+}
+
+/* line 67, ../../app/assets/stylesheets/sequence-editing.scss */
+#rightcol {
+  float: right;
+  width: 45%;
+}

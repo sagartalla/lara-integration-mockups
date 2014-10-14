@@ -1,0 +1,1164 @@
+/* line 13, ../../app/assets/stylesheets/style.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, ../../app/assets/stylesheets/style.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, ../../app/assets/stylesheets/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 29, ../../app/assets/stylesheets/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 33, ../../app/assets/stylesheets/style.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 37, ../../app/assets/stylesheets/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 42, ../../app/assets/stylesheets/style.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 45, ../../app/assets/stylesheets/style.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 48, ../../app/assets/stylesheets/style.scss */
+body {
+  background: white url(../lara-assets/body-bg.gif) right 60px no-repeat;
+  color: #3f3f3f;
+  font: 80% 'Lato', arial, helvetica, sans-serif;
+}
+
+/* line 53, ../../app/assets/stylesheets/style.scss */
+button, .btn-primary, span.edit_trigger, #modal .embeddable-save {
+  background: #6fc5d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: .9em;
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* line 66, ../../app/assets/stylesheets/style.scss */
+button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
+  background: #ccc !important;
+}
+
+/* line 71, ../../app/assets/stylesheets/style.scss */
+#header {
+  background: #bddfdf;
+  height: 75px;
+  position: relative;
+}
+/* line 75, ../../app/assets/stylesheets/style.scss */
+#header div {
+  height: 130px;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+/* line 81, ../../app/assets/stylesheets/style.scss */
+#header #mw-logo {
+  border: none;
+  float: left;
+  font-size: 1.5em;
+  height: 60px;
+  margin-top: 7px;
+  width: 159px;
+}
+/* line 89, ../../app/assets/stylesheets/style.scss */
+#header #cc-logo {
+  border: none;
+  float: right;
+  height: 35px;
+  margin-top: 19px;
+  width: 114px;
+}
+
+/* line 97, ../../app/assets/stylesheets/style.scss */
+.clear {
+  clear: both;
+  height: 0;
+}
+
+/* line 101, ../../app/assets/stylesheets/style.scss */
+.content {
+  height: auto;
+  margin: 0 auto;
+  min-height: 500px;
+  position: relative;
+  width: 960px;
+}
+/* line 107, ../../app/assets/stylesheets/style.scss */
+.content h1 {
+  clear: both;
+  color: #eb8723;
+  font: 700 2em 'Lato', georgia, 'times new roman', serif;
+}
+/* line 112, ../../app/assets/stylesheets/style.scss */
+.content p.question {
+  color: #3a878b;
+  font: 400 1.3em 'Lato', georgia, 'times new roman', serif;
+  min-height: 1em;
+}
+/* line 117, ../../app/assets/stylesheets/style.scss */
+.content nav {
+  padding: 10px 0;
+  width: 79%;
+  margin: 1em;
+}
+/* line 122, ../../app/assets/stylesheets/style.scss */
+.content .breadcrumbs {
+  height: auto;
+  text-align: left;
+}
+/* line 126, ../../app/assets/stylesheets/style.scss */
+.content #session {
+  clear: right;
+  float: right;
+  height: auto;
+  padding: 10px 0;
+  text-align: right;
+}
+/* line 133, ../../app/assets/stylesheets/style.scss */
+.content #activity-actions {
+  clear: both;
+  height: 20px;
+}
+/* line 137, ../../app/assets/stylesheets/style.scss */
+.content #activity-actions #new-menu {
+  float: right;
+  margin-top: 10px;
+}
+/* line 141, ../../app/assets/stylesheets/style.scss */
+.content p.active-runs {
+  color: red;
+  border: 1px solid red;
+  padding: 3px;
+  margin: 5px;
+}
+
+/* line 148, ../../app/assets/stylesheets/style.scss */
+.title {
+  padding: 1% 0;
+  width: 100%;
+}
+
+/* line 152, ../../app/assets/stylesheets/style.scss */
+.page-nav {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+/* line 156, ../../app/assets/stylesheets/style.scss */
+.page-nav .secondary {
+  background: #fff;
+  bottom: 0 !important;
+  clear: both;
+  height: 28px !important;
+  margin-top: 542px;
+  padding: 10px 0;
+  position: absolute;
+  right: 0;
+  text-align: right !important;
+  width: 100% !important;
+}
+/* line 168, ../../app/assets/stylesheets/style.scss */
+.page-nav a {
+  background: #6fc5d8;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: .9em;
+  height: 18px;
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 18px;
+}
+/* line 182, ../../app/assets/stylesheets/style.scss */
+.page-nav a.previous {
+  background: transparent url(/assets/page-nav-prev.png) no-repeat;
+  height: 30px;
+  margin-right: -1px;
+  padding: 0;
+  width: 30px;
+}
+/* line 189, ../../app/assets/stylesheets/style.scss */
+.page-nav a.next {
+  background: transparent url(/assets/page-nav-next.png) no-repeat;
+  height: 30px;
+  margin-left: -1px;
+  padding: 7px 0 0 0;
+  width: 30px;
+}
+/* line 196, ../../app/assets/stylesheets/style.scss */
+.page-nav a.previous.disabled {
+  background: transparent url(/assets/page-nav-prev-dis.png) no-repeat;
+}
+/* line 199, ../../app/assets/stylesheets/style.scss */
+.page-nav a.next.disabled {
+  background: transparent url(/assets/page-nav-next-dis.png) no-repeat;
+  background-size: 100% 100%;
+}
+/* line 203, ../../app/assets/stylesheets/style.scss */
+.page-nav a.active {
+  background: #aaa;
+}
+
+/* line 207, ../../app/assets/stylesheets/style.scss */
+.text {
+  float: left;
+  height: auto;
+  padding: 1% 1% 1% 0;
+  width: 38%;
+}
+
+/* line 213, ../../app/assets/stylesheets/style.scss */
+.stacked-right .text {
+  float: right;
+  padding: 1% 0 1% 1%;
+}
+
+/* line 217, ../../app/assets/stylesheets/style.scss */
+.text.full-width {
+  padding: 0;
+  width: 100%;
+}
+
+/* line 221, ../../app/assets/stylesheets/style.scss */
+.text li, .text p, .text ul {
+  line-height: 130%;
+  margin-bottom: 1em;
+}
+
+/* line 225, ../../app/assets/stylesheets/style.scss */
+.text ul, body.full .title ul {
+  list-style: disc;
+  margin: 10px 0 0 20px;
+}
+
+/* line 229, ../../app/assets/stylesheets/style.scss */
+.full .title h2 {
+  margin: 20px 0 0;
+}
+
+/* line 232, ../../app/assets/stylesheets/style.scss */
+.instructions h2, .model-instructions h2, h2.activity-list {
+  color: #75a643 !important;
+  font: 500 1.5em 'Lato', georgia, 'times new roman', serif;
+}
+
+/* line 236, ../../app/assets/stylesheets/style.scss */
+.questions .embeddable, .authorable_open_response, .authorable_multiple_choice, .authorable_image_question {
+  background: #eee;
+  margin-bottom: 1em;
+  padding: 3%;
+  width: 94%;
+  border-radius: 13px;
+}
+
+/* line 244, ../../app/assets/stylesheets/style.scss */
+.questions label {
+  display: block;
+  margin-bottom: 1em;
+  padding-left: 1.7em;
+  text-indent: -1.7em;
+}
+/* line 250, ../../app/assets/stylesheets/style.scss */
+.questions .xhtml p {
+  background: transparent;
+  clear: both;
+  float: none;
+  height: auto;
+  min-height: 0;
+  width: 100%;
+}
+/* line 258, ../../app/assets/stylesheets/style.scss */
+.questions textarea {
+  height: 200px;
+  margin: .5em 0 0;
+  width: 98%;
+}
+
+/* line 265, ../../app/assets/stylesheets/style.scss */
+.questions.full-width .embeddable {
+  float: left;
+  margin: 1% .5% 1% 0;
+  min-height: 243px;
+}
+
+/* line 272, ../../app/assets/stylesheets/style.scss */
+.questions.full-width.two .embeddable {
+  width: 43%;
+}
+/* line 275, ../../app/assets/stylesheets/style.scss */
+.questions.full-width.two .embeddable:nth-child(2n) {
+  margin: 1% 0 1% 1.25%;
+}
+
+/* line 280, ../../app/assets/stylesheets/style.scss */
+.questions.full-width.three .embeddable {
+  width: 26%;
+}
+/* line 283, ../../app/assets/stylesheets/style.scss */
+.questions.full-width.three .embeddable:nth-child(3n) {
+  margin: 1% 0;
+}
+
+/* line 287, ../../app/assets/stylesheets/style.scss */
+.other {
+  float: right;
+  height: auto;
+  width: 60%;
+}
+
+/* line 292, ../../app/assets/stylesheets/style.scss */
+.stacked-right .other {
+  float: left;
+  height: auto;
+  width: 60%;
+}
+
+/* line 297, ../../app/assets/stylesheets/style.scss */
+.full .other, .other.full-width {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+/* line 302, ../../app/assets/stylesheets/style.scss */
+.model, .model-edit {
+  background: #fff;
+  height: auto;
+  margin: 13px 0 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 309, ../../app/assets/stylesheets/style.scss */
+.model iframe, .model-edit iframe {
+  border: none;
+  height: 435px;
+  margin: 3px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 317, ../../app/assets/stylesheets/style.scss */
+.toolbar {
+  background: #6fc5d8;
+  color: #fff;
+  font-size: .9em;
+  height: 15px;
+  padding: 5px;
+  text-align: right;
+}
+/* line 324, ../../app/assets/stylesheets/style.scss */
+.toolbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 329, ../../app/assets/stylesheets/style.scss */
+.model-instructions {
+  position: absolute;
+  right: 10px;
+  top: 37px;
+  width: 400px;
+  z-index: 1000;
+}
+/* line 335, ../../app/assets/stylesheets/style.scss */
+.model-instructions img {
+  width: 100%;
+}
+/* line 338, ../../app/assets/stylesheets/style.scss */
+.model-instructions button {
+  background: url(/assets/watch-tutorial.png) no-repeat;
+  display: block;
+  height: 34px;
+  margin: 15px auto;
+  text-indent: -999em;
+  width: 174px;
+}
+
+/* line 347, ../../app/assets/stylesheets/style.scss */
+.sidebar {
+  background: #6fc5d8;
+  clear: both;
+  color: #fff;
+  height: auto;
+  margin-top: 20px;
+  min-height: 224px;
+  padding: 1%;
+  border-radius: 13px;
+}
+/* line 356, ../../app/assets/stylesheets/style.scss */
+.sidebar h2 {
+  font: 500 2em 'Lato', georgia, 'times new roman', serif;
+  margin: 0 0 20px;
+}
+/* line 360, ../../app/assets/stylesheets/style.scss */
+.sidebar img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 364, ../../app/assets/stylesheets/style.scss */
+.sidebar p {
+  font-size: 1em;
+  line-height: 150%;
+  margin-bottom: 1em;
+}
+/* line 369, ../../app/assets/stylesheets/style.scss */
+.sidebar small {
+  font-size: .9em;
+}
+
+/* line 373, ../../app/assets/stylesheets/style.scss */
+.related {
+  background: #6fc5d8;
+  clear: both;
+  color: #fff;
+  height: auto;
+  margin-top: 20px;
+  min-height: 224px;
+  padding: 1%;
+  border-radius: 13px;
+}
+/* line 382, ../../app/assets/stylesheets/style.scss */
+.related a {
+  border-bottom: dotted 1px #fff;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 387, ../../app/assets/stylesheets/style.scss */
+.related h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 391, ../../app/assets/stylesheets/style.scss */
+.related h3 {
+  font: 700 1.3em 'Lato', georgia, 'times new roman', serif;
+}
+/* line 394, ../../app/assets/stylesheets/style.scss */
+.related ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 398, ../../app/assets/stylesheets/style.scss */
+.related li {
+  float: left;
+  margin: 1%;
+  width: 31%;
+}
+/* line 403, ../../app/assets/stylesheets/style.scss */
+.related img {
+  float: right;
+  margin: 3px 0 0 10px;
+}
+
+/* line 409, ../../app/assets/stylesheets/style.scss */
+body.summary .question {
+  padding: 10px 0;
+}
+/* line 412, ../../app/assets/stylesheets/style.scss */
+body.summary .print {
+  clear: right;
+  float: right;
+}
+
+/* line 417, ../../app/assets/stylesheets/style.scss */
+div.summary {
+  clear: both;
+}
+
+/* line 420, ../../app/assets/stylesheets/style.scss */
+#footer {
+  background: #bddfdf;
+  clear: both;
+  color: #3a878b;
+  margin-top: 20px;
+  display: block;
+  padding: 1em;
+}
+/* line 427, ../../app/assets/stylesheets/style.scss */
+#footer div {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 432, ../../app/assets/stylesheets/style.scss */
+#footer a {
+  color: #3a878b;
+}
+
+/* line 435, ../../app/assets/stylesheets/style.scss */
+#overlay {
+  background: #000;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: .75;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 446, ../../app/assets/stylesheets/style.scss */
+.action_menu_header_right {
+  float: right;
+  width: 7%;
+}
+/* line 449, ../../app/assets/stylesheets/style.scss */
+.action_menu_header_right ul li {
+  list-style: none;
+  float: left;
+  margin: -10px 0 1px 10px;
+}
+
+/* line 455, ../../app/assets/stylesheets/style.scss */
+.action_menu_header_right.index {
+  width: 35%;
+}
+
+/* line 458, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list {
+  border-top: dashed 1px #ddd;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  clear: both;
+  list-style: none;
+}
+/* line 464, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item {
+  padding: 10px 5px;
+  margin: 0;
+  border-bottom: dashed 1px #ddd;
+}
+/* line 468, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .action_menu_header_left {
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 82%;
+}
+/* line 474, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .action_menu_header_right {
+  width: 33%;
+}
+/* line 477, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .action_menu_header_right.themes {
+  width: 20%;
+}
+/* line 480, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .tiny {
+  clear: both;
+  display: block;
+  margin-top: 23px;
+}
+/* line 485, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .author, ul.quiet_list li.item .updated, ul.quiet_list li.item .published {
+  font-size: 0.8em;
+}
+/* line 488, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item .active-runs {
+  color: red;
+  float: right;
+  border: 1px solid red;
+  padding: 2px;
+}
+/* line 495, ../../app/assets/stylesheets/style.scss */
+ul.quiet_list li.item:hover {
+  background: #fef7e0;
+}
+
+/* line 500, ../../app/assets/stylesheets/style.scss */
+form.edit_lightweight_activity fieldset {
+  clear: left;
+  margin-top: 20px;
+}
+/* line 504, ../../app/assets/stylesheets/style.scss */
+form.edit_lightweight_activity legend {
+  font-weight: bold;
+}
+/* line 507, ../../app/assets/stylesheets/style.scss */
+form.edit_lightweight_activity .submit {
+  text-align: right;
+  width: 100%;
+}
+
+/* line 513, ../../app/assets/stylesheets/style.scss */
+#menu {
+  float: right;
+  list-style-type: none;
+}
+/* line 516, ../../app/assets/stylesheets/style.scss */
+#menu h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 520, ../../app/assets/stylesheets/style.scss */
+#menu .sortable-list {
+  clear: both;
+  float: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 526, ../../app/assets/stylesheets/style.scss */
+#menu .sortable-list .item {
+  border-bottom: dashed 1px #6fc5d8;
+  clear: both;
+  margin: 0 0 .5em;
+  padding: 5px 3px;
+  min-height: 15px;
+}
+/* line 533, ../../app/assets/stylesheets/style.scss */
+#menu .sortable-list .menu {
+  float: right;
+}
+/* line 535, ../../app/assets/stylesheets/style.scss */
+#menu .sortable-list .menu li {
+  display: inline;
+  border: none;
+}
+/* line 541, ../../app/assets/stylesheets/style.scss */
+#menu .chosen-select {
+  width: 250px;
+}
+
+/* line 545, ../../app/assets/stylesheets/style.scss */
+#pages, #activities {
+  background: #c9e9e6;
+  padding: 15px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+/* line 552, ../../app/assets/stylesheets/style.scss */
+#pages li#add, #activities li#add {
+  margin-top: 10px;
+}
+/* line 554, ../../app/assets/stylesheets/style.scss */
+#pages li#add a, #activities li#add a {
+  background: transparent url(/assets/icons/add.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+/* line 563, ../../app/assets/stylesheets/style.scss */
+#pages li a, #activities li a {
+  color: #333;
+  height: 14px;
+  padding-left: 16px;
+  text-decoration: none;
+}
+/* line 569, ../../app/assets/stylesheets/style.scss */
+#pages li.drag_handle, #activities li.drag_handle {
+  padding: 5px;
+  cursor: move;
+  padding-top: 0;
+}
+
+/* line 575, ../../app/assets/stylesheets/style.scss */
+ul#new {
+  margin-top: 1em;
+}
+/* line 577, ../../app/assets/stylesheets/style.scss */
+ul#new li#add a {
+  background: transparent url(/assets/icons/add.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+/* line 585, ../../app/assets/stylesheets/style.scss */
+ul#new li#desc-toggle a {
+  background: transparent url(/assets/icons/plus.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 594, ../../app/assets/stylesheets/style.scss */
+li.copy a {
+  /* We need an URL icon */
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 602, ../../app/assets/stylesheets/style.scss */
+li.edit a {
+  background: transparent url(../lara-assets/edit.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 610, ../../app/assets/stylesheets/style.scss */
+li.run a {
+  background: transparent url(/assets/icons/run.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 618, ../../app/assets/stylesheets/style.scss */
+li.delete a {
+  background: transparent url(/assets/icons/delete.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 626, ../../app/assets/stylesheets/style.scss */
+li.publish a {
+  background: transparent url(/assets/icons/publish.png) 0 0 no-repeat;
+  background-size: 14px;
+  color: #333;
+  height: 14px;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+/* line 634, ../../app/assets/stylesheets/style.scss */
+h2.list-head {
+  clear: both;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* line 639, ../../app/assets/stylesheets/style.scss */
+div.wysiwyg ul.toolbar {
+  background: none;
+  color: inherit;
+  text-align: left;
+  height: inherit;
+  margin: 0;
+}
+
+/* Summary page */
+/* line 649, ../../app/assets/stylesheets/style.scss */
+body.summary .prompt {
+  font-weight: bold;
+  margin: 5px 5px 5px 0;
+}
+/* line 653, ../../app/assets/stylesheets/style.scss */
+body.summary .number {
+  float: left;
+  font-weight: bold;
+  margin: 5px 5px 5px 0;
+}
+/* line 658, ../../app/assets/stylesheets/style.scss */
+body.summary .answer, body.summary .image_answer {
+  clear: left;
+  margin-left: 16px;
+}
+
+/* line 666, ../../app/assets/stylesheets/style.scss */
+div.block-empty {
+  border: 1px solid #ffcccc;
+  min-height: 2em;
+}
+
+/* line 670, ../../app/assets/stylesheets/style.scss */
+.drag_handle {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKCAYAAABrGwT5AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTEvMjAvMTL51e9HAAAALElEQVQokWP06Nv7mYGBgZuBdPCViQxNcMBIqob////D2ZTZPOpnkgBlfgYA0IAQnGCtpqwAAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  background-position: 2px 2px;
+}
+
+/* These are unique to the edit view */
+/* line 678, ../../app/assets/stylesheets/style.scss */
+div.edit-meta {
+  border: 1px solid #cccccc;
+  position: fixed;
+  padding: .6em;
+  left: 10px;
+  top: 80px;
+  max-width: 180px;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+}
+/* line 689, ../../app/assets/stylesheets/style.scss */
+div.edit-meta .page-section-controls li {
+  list-style: none;
+}
+/* line 692, ../../app/assets/stylesheets/style.scss */
+div.edit-meta ul.tasks {
+  margin-top: 2em;
+}
+/* line 694, ../../app/assets/stylesheets/style.scss */
+div.edit-meta ul.tasks li {
+  list-style-position: inside;
+}
+
+/* Activity editing */
+/* line 700, ../../app/assets/stylesheets/style.scss */
+fieldset {
+  position: relative;
+}
+/* line 702, ../../app/assets/stylesheets/style.scss */
+fieldset .edit_trigger {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  margin: 0;
+  background: 0;
+  color: #126eac;
+}
+
+/* Page editing */
+/* line 712, ../../app/assets/stylesheets/style.scss */
+.editing {
+  /* Title */
+  /* Page intro */
+  /* Info/assessment block */
+  /* Interactives block */
+}
+/* line 713, ../../app/assets/stylesheets/style.scss */
+.editing fieldset .edit_trigger {
+  line-height: 2em;
+}
+/* line 715, ../../app/assets/stylesheets/style.scss */
+.editing .editable[data-name="interactive_page[name]"] form {
+  display: inline;
+}
+/* line 719, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions, .editing div.sidebar {
+  border: 1px solid #6fc5d8;
+  position: relative;
+  padding: 5px;
+}
+/* line 723, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions .edit_trigger, .editing div.sidebar .edit_trigger {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  margin: 0;
+  background: 0;
+  color: #126eac;
+}
+/* line 731, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions h2, .editing div.sidebar h2 {
+  width: 100%;
+  background-color: #b5e3ef;
+  color: #126eac !important;
+  text-align: left;
+  font-size: 1.3em;
+  margin: -5px -5px 5px;
+  /* Undoes padding from div on top, left, & right for background */
+  padding: 5px;
+  /* Gives the head itself some padding */
+}
+/* line 740, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions .editable button, .editing div.sidebar .editable button {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  margin: 0;
+  background: 0;
+  color: #126eac;
+}
+/* line 748, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions .editable button.jeditable-submit, .editing div.sidebar .editable button.jeditable-submit {
+  right: 55px;
+}
+/* line 751, ../../app/assets/stylesheets/style.scss */
+.editing div.instructions .editable button.jeditable-submit:after, .editing div.sidebar .editable button.jeditable-submit:after {
+  content: " |";
+}
+/* line 756, ../../app/assets/stylesheets/style.scss */
+.editing div.questions {
+  border: 1px solid #6fc5d8;
+  padding: 5px;
+  position: relative;
+}
+/* line 760, ../../app/assets/stylesheets/style.scss */
+.editing div.questions h2 {
+  width: 100%;
+  background-color: #b5e3ef;
+  color: #126eac !important;
+  text-align: left;
+  margin: -5px -5px 5px;
+  /* Undoes padding from div on top, left, & right for background */
+  padding: 5px;
+  /* Gives the head itself some padding */
+  font: 500 1.3em 'Lato', georgia, 'times new roman', serif;
+}
+/* line 769, ../../app/assets/stylesheets/style.scss */
+.editing div.questions form.embeddables-form {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  text-align: right;
+}
+/* line 775, ../../app/assets/stylesheets/style.scss */
+.editing div.questions .embeddable_tools {
+  text-align: right;
+  font-weight: bold;
+  color: #6fc5d8;
+}
+/* line 779, ../../app/assets/stylesheets/style.scss */
+.editing div.questions .embeddable_tools a:link {
+  color: #6fc5d8;
+}
+/* line 782, ../../app/assets/stylesheets/style.scss */
+.editing div.questions .embeddable_tools .drag_handle {
+  float: left;
+}
+/* line 786, ../../app/assets/stylesheets/style.scss */
+.editing div.questions #sort_embeddables > div {
+  padding: 5px;
+  border: 1px solid #6fc5d8;
+  margin-bottom: 1em;
+  border-radius: 0;
+}
+/* line 787, ../../app/assets/stylesheets/style.scss */
+.editing div.questions #sort_embeddables > div .embeddable_tools {
+  background-color: #b5e3ef;
+  padding: 5px;
+  margin: -5px -5px 5px;
+}
+/* line 800, ../../app/assets/stylesheets/style.scss */
+.editing div.other form.interactives-form {
+  margin-top: 8px;
+}
+/* line 804, ../../app/assets/stylesheets/style.scss */
+.editing div.sidebar {
+  background: 0;
+  border-radius: 0;
+  color: #000;
+}
+/* line 809, ../../app/assets/stylesheets/style.scss */
+.editing h2.question {
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* line 813, ../../app/assets/stylesheets/style.scss */
+.editing h2.question .edit_trigger, .editing h2.question button {
+  font-weight: normal;
+  font-size: 0.66em;
+  color: #6fc5d8;
+  background: none;
+  text-decoration: underline;
+  margin-top: inherit;
+}
+
+/* Breadcrumbs */
+/* line 824, ../../app/assets/stylesheets/style.scss */
+div.breadcrumbs li {
+  list-style: none;
+  float: left;
+  margin-right: .5em;
+}
+
+/* Inside the modal edit window */
+/* line 3, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal #add_new_choice {
+  /* Hacky way of moving this out of flow and putting it a line above where it should be */
+  position: absolute;
+  right: 5px;
+  margin-top: -1em;
+}
+/* line 10, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal .choices .delete_choice {
+  position: relative;
+  left: 20px;
+}
+/* line 15, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal li {
+  list-style: none;
+}
+/* line 18, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal label {
+  font-weight: bold;
+}
+/* line 21, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal fieldset {
+  margin-top: 1em;
+}
+/* line 24, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal fieldset legend {
+  font-weight: bold;
+}
+/* line 27, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal button, #modal .btn {
+  float: right;
+  margin: 1em;
+}
+/* line 31, ../../app/assets/stylesheets/partials/authoring/modal_edit.scss */
+#modal .help {
+  font-size: 12px;
+  color: #666;
+}
+
+/* User admin stuff */
+/* line 831, ../../app/assets/stylesheets/style.scss */
+body.admin td {
+  padding: 7px;
+  border-width: 0 1px;
+  border-color: #999;
+  border-style: dotted;
+}
+/* line 837, ../../app/assets/stylesheets/style.scss */
+body.admin th {
+  padding: 7px;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 842, ../../app/assets/stylesheets/style.scss */
+body.admin tr {
+  border-bottom: 1px solid #333;
+}
+
+/* line 847, ../../app/assets/stylesheets/style.scss */
+body.admin.edit fieldset {
+  border: 1px solid #999;
+  padding: 7px;
+}
+/* line 850, ../../app/assets/stylesheets/style.scss */
+body.admin.edit fieldset legend {
+  padding: 5px;
+  text-align: right;
+  font-weight: bold;
+}
+/* line 855, ../../app/assets/stylesheets/style.scss */
+body.admin.edit fieldset label {
+  font-weight: bold;
+}
+/* line 858, ../../app/assets/stylesheets/style.scss */
+body.admin.edit fieldset p {
+  padding: 7px;
+}
+/* line 862, ../../app/assets/stylesheets/style.scss */
+body.admin.edit div.actions {
+  padding: 7px;
+}
+/* line 864, ../../app/assets/stylesheets/style.scss */
+body.admin.edit div.actions input {
+  padding: 7px;
+}
+
+/* line 872, ../../app/assets/stylesheets/style.scss */
+.multiple_choice .answer label {
+  display: inline;
+}
+
+/* line 878, ../../app/assets/stylesheets/style.scss */
+#activities ul.menu li.delete form {
+  display: inline;
+}
+/* line 880, ../../app/assets/stylesheets/style.scss */
+#activities ul.menu li.delete form input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  background: transparent url(/assets/icons/delete.png) 0 0 no-repeat;
+  background-size: 16px;
+  color: #333;
+  height: 16px;
+  padding-left: 18px;
+}
+
+/* line 892, ../../app/assets/stylesheets/style.scss */
+ul#new-menu {
+  float: right;
+  width: 100%;
+}
+/* line 895, ../../app/assets/stylesheets/style.scss */
+ul#new-menu li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 15px;
+  float: right;
+}
+
+@media print {
+  /* line 904, ../../app/assets/stylesheets/style.scss */
+  #footer, #header, nav, #session, button.print {
+    display: none;
+  }
+}
+/* line 909, ../../app/assets/stylesheets/style.scss */
+#activity_listing_head, #sequence_listing_head, #official_listing_heading, #community_listing_heading {
+  float: left;
+}
+
+/* line 913, ../../app/assets/stylesheets/style.scss */
+.buttons-menu {
+  float: right;
+}
+/* line 915, ../../app/assets/stylesheets/style.scss */
+.buttons-menu a {
+  text-decoration: none;
+}
+/* line 918, ../../app/assets/stylesheets/style.scss */
+.buttons-menu button {
+  margin: 5px 0 5px 15px;
+}

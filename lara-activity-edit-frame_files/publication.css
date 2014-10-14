@@ -1,0 +1,90 @@
+/* line 2, ../../app/assets/stylesheets/publication.scss */
+#modal .publication {
+  padding: 0px;
+}
+/* line 4, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .title {
+  font-weight: bold;
+}
+/* line 7, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 1.1em;
+  height: auto;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+/* line 19, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .info {
+  margin-top: 10px;
+}
+/* line 22, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .close_link {
+  text-align: right;
+  float: right;
+  color: #444;
+  padding-bottom: 5px;
+}
+/* line 27, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .close_link:hover, #modal .publication .close_link:active {
+  text-decoration: underline;
+  color: #888;
+}
+/* line 32, ../../app/assets/stylesheets/publication.scss */
+#modal .publication li {
+  list-style: none;
+  line-height: 2em;
+}
+/* line 36, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .published {
+  border-radius: 10px 50px 50px 10px;
+  -moz-border-radius: 10px 50px 50px 10px;
+  -webkit-border-radius: 10px 50px 50px 10px;
+  background-color: #6fc5d8;
+  padding: 4px;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+/* line 45, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .not_published {
+  color: #8db177;
+  padding: 2px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+/* line 51, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .error {
+  background-color: #770000;
+}
+/* line 53, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .error a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 59, ../../app/assets/stylesheets/publication.scss */
+#modal .publication .buttons {
+  float: right;
+}
+
+/* line 64, ../../app/assets/stylesheets/publication.scss */
+.publication_details {
+  color: #770000;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid;
+}
+/* line 68, ../../app/assets/stylesheets/publication.scss */
+.publication_details ul {
+  margin-left: 3em;
+}
+
+/* line 74, ../../app/assets/stylesheets/publication.scss */
+.tiny {
+  font-size: 9px;
+}
