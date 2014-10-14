@@ -62,7 +62,7 @@ i, em {
 
 /* line 48, ../../app/assets/stylesheets/style.scss */
 body {
-  background: white url(/assets/body-bg.gif) right 60px no-repeat;
+  background: white url(../lara-assets/body-bg.gif) right 60px no-repeat;
   color: #3f3f3f;
   font: 80% 'Lato', arial, helvetica, sans-serif;
 }
@@ -223,7 +223,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 182, ../../app/assets/stylesheets/style.scss */
 .page-nav a.previous {
-  background: transparent url(/assets/page-nav-prev.png) no-repeat;
+  background: transparent url(../lara-assets/page-nav-prev.png) no-repeat;
   height: 30px;
   margin-right: -1px;
   padding: 0;
@@ -231,7 +231,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 189, ../../app/assets/stylesheets/style.scss */
 .page-nav a.next {
-  background: transparent url(/assets/page-nav-next.png) no-repeat;
+  background: transparent url(../lara-assets/page-nav-next.png) no-repeat;
   height: 30px;
   margin-left: -1px;
   padding: 7px 0 0 0;
@@ -239,7 +239,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 196, ../../app/assets/stylesheets/style.scss */
 .page-nav a.previous.disabled {
-  background: transparent url(/assets/page-nav-prev-dis.png) no-repeat;
+  background: transparent url(../lara-assets/page-nav-prev-dis.png) no-repeat;
 }
 /* line 199, ../../app/assets/stylesheets/style.scss */
 .page-nav a.next.disabled {
