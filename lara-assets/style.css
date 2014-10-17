@@ -62,7 +62,7 @@ i, em {
 
 /* line 48, ../../app/assets/stylesheets/style.scss */
 body {
-  background: white url(../lara-assets/body-bg.gif) right 60px no-repeat;
+  background: white url(body-bg.gif) right 60px no-repeat;
   color: #3f3f3f;
   font: 80% 'Lato', arial, helvetica, sans-serif;
 }
@@ -223,7 +223,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 182, ../../app/assets/stylesheets/style.scss */
 .page-nav a.previous {
-  background: transparent url(/assets/page-nav-prev.png) no-repeat;
+  background: transparent url(page-nav-prev.png) no-repeat;
   height: 30px;
   margin-right: -1px;
   padding: 0;
@@ -231,7 +231,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 189, ../../app/assets/stylesheets/style.scss */
 .page-nav a.next {
-  background: transparent url(/assets/page-nav-next.png) no-repeat;
+  background: transparent url(page-nav-next.png) no-repeat;
   height: 30px;
   margin-left: -1px;
   padding: 7px 0 0 0;
@@ -239,11 +239,11 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 196, ../../app/assets/stylesheets/style.scss */
 .page-nav a.previous.disabled {
-  background: transparent url(/assets/page-nav-prev-dis.png) no-repeat;
+  background: transparent url(page-nav-prev-dis.png) no-repeat;
 }
 /* line 199, ../../app/assets/stylesheets/style.scss */
 .page-nav a.next.disabled {
-  background: transparent url(/assets/page-nav-next-dis.png) no-repeat;
+  background: transparent url(page-nav-next-dis.png) no-repeat;
   background-size: 100% 100%;
 }
 /* line 203, ../../app/assets/stylesheets/style.scss */
@@ -419,7 +419,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 }
 /* line 338, ../../app/assets/stylesheets/style.scss */
 .model-instructions button {
-  background: url(/assets/watch-tutorial.png) no-repeat;
+  background: url(watch-tutorial.png) no-repeat;
   display: block;
   height: 34px;
   margin: 15px auto;
@@ -688,7 +688,7 @@ form.edit_lightweight_activity .submit {
 }
 /* line 554, ../../app/assets/stylesheets/style.scss */
 #pages li#add a, #activities li#add a {
-  background: transparent url(../lara-assets/add.png) 0 0 no-repeat;
+  background: transparent url(add.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -715,7 +715,7 @@ ul#new {
 }
 /* line 577, ../../app/assets/stylesheets/style.scss */
 ul#new li#add a {
-  background: transparent url(/assets/icons/add.png) 0 0 no-repeat;
+  background: transparent url(add.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -724,7 +724,7 @@ ul#new li#add a {
 }
 /* line 585, ../../app/assets/stylesheets/style.scss */
 ul#new li#desc-toggle a {
-  background: transparent url(/assets/icons/plus.png) 0 0 no-repeat;
+  background: transparent url(plus.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -744,7 +744,7 @@ li.copy a {
 
 /* line 602, ../../app/assets/stylesheets/style.scss */
 li.edit a {
-  background: transparent url(../lara-assets/edit.png) 0 0 no-repeat;
+  background: transparent url(edit.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -754,7 +754,7 @@ li.edit a {
 
 /* line 610, ../../app/assets/stylesheets/style.scss */
 li.run a {
-  background: transparent url(../lara-assets/run.png) 0 0 no-repeat;
+  background: transparent url(run.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -764,7 +764,7 @@ li.run a {
 
 /* line 618, ../../app/assets/stylesheets/style.scss */
 li.delete a {
-  background: transparent url(../lara-assets/delete.png) 0 0 no-repeat;
+  background: transparent url(delete.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -774,7 +774,7 @@ li.delete a {
 
 /* line 626, ../../app/assets/stylesheets/style.scss */
 li.publish a {
-  background: transparent url(/assets/icons/publish.png) 0 0 no-repeat;
+  background: transparent url(publish.png) 0 0 no-repeat;
   background-size: 14px;
   color: #333;
   height: 14px;
@@ -1119,7 +1119,7 @@ body.admin.edit div.actions input {
   border: none;
   cursor: pointer;
   font: inherit;
-  background: transparent url(/assets/icons/delete.png) 0 0 no-repeat;
+  background: transparent url(delete.png) 0 0 no-repeat;
   background-size: 16px;
   color: #333;
   height: 16px;
