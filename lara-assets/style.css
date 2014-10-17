@@ -191,7 +191,7 @@ button.disabled, .btn-primary.disabled, span.edit_trigger.disabled {
 .page-nav {
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 10px;
 }
 /* line 156, ../../app/assets/stylesheets/style.scss */
 .page-nav .secondary {
