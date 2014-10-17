@@ -64,36 +64,6 @@
 <div style="margin:0;padding:0;display:inline">
 <input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="CIq/9RNFJoLMcY8avNiHfcI/4JyDS7aolfba4lyIs3I=">
 </div>    
-        <div class="submit">
-          <input id="save-top" name="commit" type="submit" value="Save">
-</div>
-        <div class="field">
-          <label for="lightweight_activity_name">Activity Name</label>
-          <input id="lightweight_activity_name" name="lightweight_activity[name]" size="80" type="text" value="Intermolecular Attractions and Solubility">
-</div>
-        <div class="field">
-          <label for="lightweight_activity_theme_id">Theme</label>
-          <select id="lightweight_activity_theme_id" name="lightweight_activity[theme_id]"><option value="">None (inherit from sequence, project, or site default)</option></select>
-</div>
-        <div class="field">
-          <label for="lightweight_activity_project_id">Project</label>
-          <select id="lightweight_activity_project_id" name="lightweight_activity[project_id]"><option value=""></option></select>
-</div>
-        <div class="field">
-          <label for="lightweight_activity_is_official">Official CC Activity</label>
-          <input name="lightweight_activity[is_official]" type="hidden" value="0"><input id="lightweight_activity_is_official" name="lightweight_activity[is_official]" type="checkbox" value="1">
-</div>
-        <div class="field">
-          <label for="lightweight_activity_is_locked">Is this activity locked?</label>
-          <input name="lightweight_activity[is_locked]" type="hidden" value="0"><input id="lightweight_activity_is_locked" name="lightweight_activity[is_locked]" type="checkbox" value="1"><div class="hint">("Locked" activities may only be copied or edited by admin users, not regular authors.)</div>
-        </div>
-        <div class="field">
-          <label for="lightweight_activity_publication_status">Publication status</label>
-          <select id="lightweight_activity_publication_status" name="lightweight_activity[publication_status]"><option value="public">Public on the Web</option>
-<option value="hidden">Anyone with the link can run</option>
-<option value="private" selected="">Private</option>
-<option value="archive">Archive</option></select>
-</div>
         <div class="field">
           <label for="lightweight_activity_description">Activity Description</label>
           
@@ -126,6 +96,25 @@
                       $(".edit_trigger[id='lightweight_activity_description_trigger']").toggle(); /* Hide the trigger */
                   });
                 </script>
+</div>
+        <div class="field">
+          <label for="lightweight_activity_theme_id">Theme</label>
+          <select id="lightweight_activity_theme_id" name="lightweight_activity[theme_id]"><option value="">None (inherit from sequence, project, or site default)</option></select>
+</div>
+        <div class="field">
+          <label for="lightweight_activity_project_id">Project</label>
+          <select id="lightweight_activity_project_id" name="lightweight_activity[project_id]"><option value=""></option></select>
+</div>
+        <div class="field">
+          <label for="lightweight_activity_is_locked">Is this activity locked?</label>
+          <input name="lightweight_activity[is_locked]" type="hidden" value="0"><input id="lightweight_activity_is_locked" name="lightweight_activity[is_locked]" type="checkbox" value="1"><div class="hint">("Locked" activities may only be copied or edited by admin users, not regular authors.)</div>
+        </div>
+        <div class="field">
+          <label for="lightweight_activity_publication_status">Publication status</label>
+          <select id="lightweight_activity_publication_status" name="lightweight_activity[publication_status]"><option value="public">Public on the Web</option>
+<option value="hidden">Anyone with the link can run</option>
+<option value="private" selected="">Private</option>
+<option value="archive">Archive</option></select>
 </div>
         <div class="field">
           <label for="lightweight_activity_related">Related Content</label>
@@ -180,9 +169,6 @@
           <label for="lightweight_activity_notes">Notes</label>
           <div class="hint">The notes area is for storing information for other authors, e.g. source material or usage restrictions, and is not intended to be displayed in the runtime.</div>
           <br><textarea cols="40" id="lightweight_activity_notes" name="lightweight_activity[notes]" rows="20"></textarea>
-</div>
-        <div class="submit">
-          <input id="save-top" name="commit" type="submit" value="Save">
 </div>
     </form>
   </div>
