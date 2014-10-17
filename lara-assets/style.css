@@ -1009,6 +1009,15 @@ fieldset .edit_trigger {
   text-decoration: underline;
   margin-top: inherit;
 }
+/* line 813, ../../app/assets/stylesheets/style.scss */
+.editing .edit_trigger {
+  font-weight: normal;
+  font-size: 0.66em;
+  color: #6fc5d8;
+  background: none;
+  text-decoration: underline;
+  margin-top: inherit;
+}
 
 /* Breadcrumbs */
 /* line 824, ../../app/assets/stylesheets/style.scss */
